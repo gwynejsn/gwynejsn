@@ -30,18 +30,24 @@ I am a software developer balancing my computer science studies with hands-on ex
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=D4AF37" />
+  <img src="https://img.shields.io/badge/Flutter-111111?style=for-the-badge&logo=flutter&logoColor=D4AF37" />
+  <img src="https://img.shields.io/badge/Dart-111111?style=for-the-badge&logo=dart&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/Spring-111111?style=for-the-badge&logo=spring&logoColor=D4AF37" />
+  <img src="https://img.shields.io/badge/Spring_Boot-111111?style=for-the-badge&logo=springboot&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=D4AF37" />
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-111111?style=for-the-badge&logo=mongodb&logoColor=D4AF37" />
+  <img src="https://img.shields.io/badge/RabbitMQ-111111?style=for-the-badge&logo=rabbitmq&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=D4AF37" />
-  <img src="https://img.shields.io/badge/MongoDB-111111?style=for-the-badge&logo=mongodb&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/Hibernate-111111?style=for-the-badge&logo=Hibernate&logoColor=D4AF37" />
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=D4AF37" />
+  <img src="https://img.shields.io/badge/JWT-111111?style=for-the-badge&logo=jsonwebtokens&logoColor=D4AF37" />
+  <img src="https://img.shields.io/badge/WebSocket-111111?style=for-the-badge&logo=socketdotio&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/Tomcat-111111?style=for-the-badge&logo=apache-tomcat&logoColor=D4AF37" />
   <img src="https://img.shields.io/badge/Maven-111111?style=for-the-badge&logo=Apache%20Maven&logoColor=D4AF37" />
 </p>
