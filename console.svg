@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 415" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="gold-text" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA820A" />
+    </linearGradient>
+
+    <!-- Gold Neon Glow Filter -->
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Typing Clip Paths (Precise Baseline Rectangles) -->
+    <clipPath id="type-command">
+      <rect x="0" y="-12" width="0" height="20">
+        <animate attributeName="width" from="0" to="400" dur="1.1s" begin="0.3s" fill="freeze" calcMode="linear" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="type-prompt">
+      <rect x="0" y="-12" width="0" height="20">
+        <animate attributeName="width" from="0" to="480" dur="1.3s" begin="4.2s" fill="freeze" calcMode="linear" />
+      </rect>
+    </clipPath>
+
+    <style>
+      .terminal-bg { fill: #0e0e0e; stroke: #2a2a2a; stroke-width: 1.5; rx: 10px; }
+      .title-bar { fill: #161616; }
+      
+      .window-btn-red { fill: #ff5f56; }
+      .window-btn-yellow { fill: #ffbd2e; }
+      .window-btn-green { fill: #27c93f; }
+
+      .mono-title {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #666666;
+      }
+
+      .ascii-art {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 13.5px;
+        font-weight: 700;
+        fill: url(#gold-text);
+        white-space: pre;
+        letter-spacing: 0px;
+      }
+
+      .sub-banner {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 12px;
+        fill: #888888;
+        white-space: pre;
+      }
+
+      .log-line {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 11px;
+        fill: #999999;
+        white-space: pre;
+      }
+
+      .log-time { fill: #555555; }
+      .log-level { fill: #27c93f; font-weight: bold; }
+      .log-thread { fill: #555555; }
+      .log-class { fill: #D4AF37; }
+      .log-highlight { fill: #ffffff; font-weight: bold; }
+      .prompt-symbol { fill: #D4AF37; font-weight: bold; }
+
+      /* Sequential Staggered Reveals */
+      .banner-fade {
+        opacity: 0;
+        animation: fadeIn 0.5s ease-out 1.4s forwards;
+      }
+
+      .log-1 { opacity: 0; animation: logSlide 0.3s ease-out 2.0s forwards; }
+      .log-2 { opacity: 0; animation: logSlide 0.3s ease-out 2.4s forwards; }
+      .log-3 { opacity: 0; animation: logSlide 0.3s ease-out 2.8s forwards; }
+      .log-4 { opacity: 0; animation: logSlide 0.3s ease-out 3.2s forwards; }
+      .log-5 { opacity: 0; animation: logSlide 0.3s ease-out 3.6s forwards; }
+      .log-6 { opacity: 0; animation: logSlide 0.3s ease-out 4.0s forwards; }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-3px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes logSlide {
+        from { opacity: 0; transform: translateY(2px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      /* Blinking Cursor Animation */
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      .cursor {
+        fill: #D4AF37;
+        animation: blink 0.9s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Base -->
+  <rect width="100%" height="100%" class="terminal-bg" />
+
+  <!-- macOS Style Window Header -->
+  <path d="M 0,10 Q 0,0 10,0 L 850,0 Q 860,0 860,10 L 860,30 L 0,30 Z" class="title-bar" />
+  <circle cx="20" cy="15" r="4.5" class="window-btn-red" />
+  <circle cx="36" cy="15" r="4.5" class="window-btn-yellow" />
+  <circle cx="52" cy="15" r="4.5" class="window-btn-green" />
+  <text x="430" y="19" text-anchor="middle" class="mono-title">gwyne@system: ~/workspace (zsh)</text>
+
+  <!-- ================= 1. TYPING COMMAND ================= -->
+  <g transform="translate(32, 54)">
+    <text x="0" y="0" class="log-line"><tspan class="prompt-symbol">❯ </tspan><tspan fill="#666666">$ </tspan></text>
+    <g clip-path="url(#type-command)" transform="translate(26, 0)">
+      <text x="0" y="0" class="log-line" fill="#ffffff">java -jar gwyne-portfolio-service.jar</text>
+    </g>
+  </g>
+
+  <!-- ================= 2. MONOSPACE ALIGNED GWYNE ASCII ART ================= -->
+  <g class="banner-fade">
+    <g transform="translate(32, 74)" filter="url(#gold-glow)">
+      <text x="0" y="18" class="ascii-art">  .     ____                                          __ _ _</text>
+      <text x="0" y="35" class="ascii-art"> /\\   / ___|__      __ _   _  _ __    ___           \ \ \ \</text>
+      <text x="0" y="52" class="ascii-art">( ( ) | |  _ \ \ /\ / /| | | || '_ \  / _ \           \ \ \ \</text>
+      <text x="0" y="69" class="ascii-art"> \\/   | |_| | \ V  V / | |_| || | | ||  __/            ) ) ) )</text>
+      <text x="0" y="86" class="ascii-art">  '    \____|  \_/\_/   \__, ||_| |_| \___|          / / / /</text>
+      <text x="0" y="103" class="ascii-art"> ============|============|___/======================/_/_/_/</text>
+    </g>
+
+    <!-- Version Release Tag -->
+    <g transform="translate(32, 196)">
+      <text x="0" y="0" class="sub-banner"> :: <tspan fill="#D4AF37" font-weight="bold">Gwyne</tspan> ::                                      <tspan fill="#666666">(v21.0-LTS • Spring Boot 3.x)</tspan></text>
+    </g>
+  </g>
+
+  <!-- ================= 3. COLUMN-ALIGNED STARTUP LOGS ================= -->
+  <g transform="translate(32, 226)">
+    <!-- Log 1 -->
+    <g class="log-1">
+      <text x="0" y="0" class="log-line"><tspan class="log-time">2026-08-14T22:08:01.102Z</tspan>  <tspan class="log-level">INFO</tspan> <tspan class="log-thread">10420 --- [           main]</tspan> <tspan class="log-class">c.gwyne.DeveloperApplication</tspan> : Starting on JVM 21 LTS</text>
+    </g>
+
+    <!-- Log 2 -->
+    <g class="log-2">
+      <text x="0" y="18" class="log-line"><tspan class="log-time">2026-08-14T22:08:01.105Z</tspan>  <tspan class="log-level">INFO</tspan> <tspan class="log-thread">10420 --- [           main]</tspan> <tspan class="log-class">c.gwyne.DeveloperApplication</tspan> : Active profiles: [<tspan class="log-highlight">fullstack-java</tspan>, <tspan class="log-highlight">cross-platform</tspan>]</text>
+    </g>
+
+    <!-- Log 3 -->
+    <g class="log-3">
+      <text x="0" y="36" class="log-line"><tspan class="log-time">2026-08-14T22:08:01.320Z</tspan>  <tspan class="log-level">INFO</tspan> <tspan class="log-thread">10420 --- [           main]</tspan> <tspan class="log-class">o.s.b.w.e.t.TomcatWebServer</tspan>  : Tomcat initialized on port 8080 (http)</text>
+    </g>
+
+    <!-- Log 4 -->
+    <g class="log-4">
+      <text x="0" y="54" class="log-line"><tspan class="log-time">2026-08-14T22:08:01.480Z</tspan>  <tspan class="log-level">INFO</tspan> <tspan class="log-thread">10420 --- [           main]</tspan> <tspan class="log-class">c.z.h.HikariDataSource</tspan>       : HikariPool-1 - Established to <tspan class="log-highlight">PostgreSQL</tspan></text>
+    </g>
+
+    <!-- Log 5 -->
+    <g class="log-5">
+      <text x="0" y="72" class="log-line"><tspan class="log-time">2026-08-14T22:08:01.620Z</tspan>  <tspan class="log-level">INFO</tspan> <tspan class="log-thread">10420 --- [           main]</tspan> <tspan class="log-class">c.gwyne.service.AcousticService</tspan>: Loaded threads: [<tspan class="log-highlight">fingerstyle_guitar</tspan>, <tspan class="log-highlight">piano</tspan>]</text>
+    </g>
+
+    <!-- Log 6 -->
+    <g class="log-6">
+      <text x="0" y="90" class="log-line"><tspan class="log-time">2026-08-14T22:08:01.842Z</tspan>  <tspan class="log-level">INFO</tspan> <tspan class="log-thread">10420 --- [           main]</tspan> <tspan class="log-class">c.gwyne.DeveloperApplication</tspan> : Started in <tspan class="log-highlight">0.740 seconds</tspan> (ready for traffic)</text>
+    </g>
+
+    <!-- ================= 4. PROMPT LINE & CURSOR ================= -->
+    <g transform="translate(0, 122)">
+      <text x="0" y="0" class="log-line"><tspan class="prompt-symbol">❯ </tspan></text>
+      <g clip-path="url(#type-prompt)" transform="translate(16, 0)">
+        <text x="0" y="0" class="log-line"><tspan fill="#ffffff">curl http://localhost:8080/api/v1/gwyne/status</tspan> <tspan fill="#666666">| jq .</tspan></text>
+      </g>
+      <!-- Blinking Cursor -->
+      <rect x="475" y="-11" width="7" height="14" rx="1" class="cursor" />
+    </g>
+  </g>
+</svg>
