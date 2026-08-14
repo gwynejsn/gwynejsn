@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="FromKlickpin.com-TryFreshrusticweddingdecorforapolishedlookpeoplewillnoticeusingpracticalinspirationthatstillfeelshighlyaesth-ezgif.com-video-to-gif-converter.gif" width="550" style="border-radius: 12px; opacity: 0.90;" alt="Creation of Adam Pixel Art" />
+  <img src="hands.gif" width="550" style="border-radius: 12px; opacity: 0.90;" alt="Creation of Adam Pixel Art" />
 
   <br/><br/>
 
