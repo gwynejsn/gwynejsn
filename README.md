@@ -6,13 +6,20 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=32&pause=1500&color=D4AF37&center=true&vcenter=true&width=800&lines=Hello,+I'm+Gwyne.;Software+Developer+%26+CS+Student;Specializing+in+Full-Stack+Java;Building+Native+Mobile+Experiences" alt="Typing SVG" />
   </a>
+  
   <br/><br/>
-
   <i>"I focus on building scalable systems, writing clean code, and creating intuitive user experiences."</i>
   <br/><br/>
 </div>
 
 ---
+
+<table border="0" cellspacing="0" cellpadding="0" style="border: none !important; border-collapse: collapse !important; background: transparent !important; box-shadow: none !important; margin: 0; padding: 0;">
+  <tr style="border: none !important; background: transparent !important; box-shadow: none !important; margin: 0; padding: 0;">
+    <td width="150px" align="center" valign="middle" style="border: none !important; background: transparent !important; box-shadow: none !important; margin: 0; padding: 0 28px 0 0;">
+      <img src="coffee.svg" width="135" style="border: none !important; background: transparent !important; outline: none !important; display: block; margin: auto;" alt="Steaming Coffee" />
+    </td>
+    <td valign="middle" style="border: none !important; background: transparent !important; box-shadow: none !important; margin: 0; padding: 0;">
 
 ### ✦ Profile & Focus
 
@@ -23,6 +30,10 @@ I am a software developer balancing my computer science studies with hands-on ex
 * **Continuous Learning:** Exploring scaling backend ecosystems, pushing Java and Spring Boot to handle complex data efficiently.
 * **Conversations:** Open to discussing backend architecture, structuring REST APIs, and transitioning between Java and TypeScript.
 * **Off-Screen:** When I step away from my studies, I spend my time practicing fingerstyle acoustic guitar and learning piano, or unwinding with slice-of-life narratives.
+
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -58,6 +69,8 @@ I am a software developer balancing my computer science studies with hands-on ex
   <img src="console.svg" width="100%" alt="Gwyne Spring Boot Console" />
 </div>
 
+<br/>
+
 ### ✦ Development Analytics
 
 <div align="center">
@@ -66,10 +79,9 @@ I am a software developer balancing my computer science studies with hands-on ex
 </div>
 
 <br/>
+
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gwynejsn&bg_color=111111&color=D4AF37&line=D4AF37&point=ffffff&area=true&hide_border=false&border_color=333333" width="96%" alt="Activity Graph" />
 </div>
-
-
 
 <br/>
