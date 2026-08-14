@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60">
+  <defs>
+    <style>
+      .track {
+        display: flex;
+        animation: scroll 18s linear infinite;
+      }
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-500px); }
+      }
+      .badge-bg {
+        fill: #111111;
+        stroke: #333333;
+        stroke-width: 1.5;
+        rx: 6;
+      }
+      .badge-text {
+        fill: #D4AF37;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Animated Track -->
+  <g class="track">
+    <!-- Group 1: Original Set -->
+    <g transform="translate(10, 12)">
+      <rect width="90" height="34" class="badge-bg" />
+      <text x="45" y="17" class="badge-text">Java</text>
+    </g>
+    <g transform="translate(115, 12)">
+      <rect width="110" height="34" class="badge-bg" />
+      <text x="55" y="17" class="badge-text">Spring Boot</text>
+    </g>
+    <g transform="translate(240, 12)">
+      <rect width="105" height="34" class="badge-bg" />
+      <text x="52.5" y="17" class="badge-text">TypeScript</text>
+    </g>
+    <g transform="translate(360, 12)">
+      <rect width="90" height="34" class="badge-bg" />
+      <text x="45" y="17" class="badge-text">React</text>
+    </g>
+    <g transform="translate(465, 12)">
+      <rect width="110" height="34" class="badge-bg" />
+      <text x="55" y="17" class="badge-text">PostgreSQL</text>
+    </g>
+
+    <!-- Group 2: Duplicate Set for Seamless Infinite Loop -->
+    <g transform="translate(585, 12)">
+      <rect width="90" height="34" class="badge-bg" />
+      <text x="45" y="17" class="badge-text">Java</text>
+    </g>
+    <g transform="translate(690, 12)">
+      <rect width="110" height="34" class="badge-bg" />
+      <text x="55" y="17" class="badge-text">Spring Boot</text>
+    </g>
+    <g transform="translate(815, 12)">
+      <rect width="105" height="34" class="badge-bg" />
+      <text x="52.5" y="17" class="badge-text">TypeScript</text>
+    </g>
+    <g transform="translate(935, 12)">
+      <rect width="90" height="34" class="badge-bg" />
+      <text x="45" y="17" class="badge-text">React</text>
+    </g>
+    <g transform="translate(1040, 12)">
+      <rect width="110" height="34" class="badge-bg" />
+      <text x="55" y="17" class="badge-text">PostgreSQL</text>
+    </g>
+  </g>
+</svg>
