@@ -53,9 +53,6 @@ I am a software developer balancing my computer science studies with hands-on ex
   <img src="https://img.shields.io/badge/Maven-111111?style=for-the-badge&logo=Apache%20Maven&logoColor=D4AF37" />
 </p>
 
-<br/>
-
-
 <div align="center">
   <img src="coffee.svg" width="90" alt="Steaming Coffee" />
 </div>
