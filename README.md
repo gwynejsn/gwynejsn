@@ -62,9 +62,10 @@ I am a software developer balancing my computer science studies with hands-on ex
 </div>
 
 <br/>
-
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=gwynejsn&background=111111&stroke=333333&ring=D4AF37&fire=D4AF37&currStreakNum=ffffff&currStreakLabel=D4AF37&sideNums=ffffff&sideLabels=D4AF37&dates=aaaaaa&hide_border=false" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gwynejsn&bg_color=111111&color=D4AF37&line=D4AF37&point=ffffff&area=true&hide_border=false&border_color=333333" width="96%" alt="Activity Graph" />
 </div>
+
+
 
 <br/>
