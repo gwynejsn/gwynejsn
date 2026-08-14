@@ -18,11 +18,11 @@
 
 I am a software developer balancing my computer science studies with hands-on experience in full-stack architecture. I appreciate well-structured logic, resilient backends, and seamless cross-platform functionality.
 
-* **Collaboration:** Partnering on ambitious, full-stack Java web applications.
-* **Current Focus:** Bridging the gap between web and mobile architecture, mastering native mobile development to build highly performant utilities.
+* **Collaboration:** Hit me up if you want to make full-stack Java web applications.
+* **Current Focus:** Mastering backend with Java Spring Boot.
 * **Continuous Learning:** Exploring scaling backend ecosystems, pushing Java and Spring Boot to handle complex data efficiently.
-* **Conversations:** Open to discussing backend architecture, structuring REST APIs, and transitioning between Java and TypeScript.
-* **Off-Screen:** When I step away from my studies, I spend my time practicing fingerstyle acoustic guitar and learning piano, or unwinding with slice-of-life narratives.
+* **Conversations:** Open to discussing backend architecture and structuring REST APIs.
+* **Off-Screen:** When I step away from my studies, I spend my time practicing fingerstyle acoustic guitar or learning piano.
 
 <br/>
 
