@@ -54,6 +54,10 @@ I am a software developer balancing my computer science studies with hands-on ex
 
 <br/>
 
+<div align="center">
+  <img src="console.svg" width="100%" alt="Gwyne Spring Boot Console" />
+</div>
+
 ### ✦ Development Analytics
 
 <div align="center">
