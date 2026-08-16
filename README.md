@@ -72,7 +72,7 @@ I am a software developer balancing my computer science studies with hands-on ex
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=gwynejsn&bg_color=111111&title_color=D4AF37&text_color=ffffff&border_color=333333&hide_border=false&include_all_commits=true&count_private=true&layout=compact" width="48%" />
 </div>
 <div align="center">
-  <img src="stack.svg" width="100%" alt="Gwyne Spring Boot Console" />
+  <img src="stack.svg" width="100%" alt="Gwyne Stack" />
 </div>
 <br/>
 
