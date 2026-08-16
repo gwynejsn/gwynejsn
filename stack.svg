@@ -2,12 +2,11 @@
   <defs>
     <style>
       .track {
-        display: flex;
-        animation: scroll 18s linear infinite;
+        animation: scroll 24s linear infinite;
       }
       @keyframes scroll {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-500px); }
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-1240px); }
       }
       .badge-bg {
         fill: #111111;
@@ -28,48 +27,118 @@
 
   <!-- Animated Track -->
   <g class="track">
-    <!-- Group 1: Original Set -->
-    <g transform="translate(10, 12)">
-      <rect width="90" height="34" class="badge-bg" />
-      <text x="45" y="17" class="badge-text">Java</text>
+    <!-- Group 1: Original Set (Total Span: 1240px) -->
+    <!-- 1. Java -->
+    <g transform="translate(10, 13)">
+      <rect width="80" height="34" class="badge-bg" />
+      <text x="40" y="17" class="badge-text">Java</text>
     </g>
-    <g transform="translate(115, 12)">
+    <!-- 2. Spring Boot -->
+    <g transform="translate(105, 13)">
+      <rect width="115" height="34" class="badge-bg" />
+      <text x="57.5" y="17" class="badge-text">Spring Boot</text>
+    </g>
+    <!-- 3. TypeScript -->
+    <g transform="translate(235, 13)">
       <rect width="110" height="34" class="badge-bg" />
-      <text x="55" y="17" class="badge-text">Spring Boot</text>
+      <text x="55" y="17" class="badge-text">TypeScript</text>
     </g>
-    <g transform="translate(240, 12)">
+    <!-- 4. React -->
+    <g transform="translate(360, 13)">
+      <rect width="85" height="34" class="badge-bg" />
+      <text x="42.5" y="17" class="badge-text">React</text>
+    </g>
+    <!-- 5. PostgreSQL -->
+    <g transform="translate(460, 13)">
+      <rect width="115" height="34" class="badge-bg" />
+      <text x="57.5" y="17" class="badge-text">PostgreSQL</text>
+    </g>
+    <!-- 6. Dart -->
+    <g transform="translate(590, 13)">
+      <rect width="80" height="34" class="badge-bg" />
+      <text x="40" y="17" class="badge-text">Dart</text>
+    </g>
+    <!-- 7. Flutter -->
+    <g transform="translate(685, 13)">
+      <rect width="90" height="34" class="badge-bg" />
+      <text x="45" y="17" class="badge-text">Flutter</text>
+    </g>
+    <!-- 8. MongoDB -->
+    <g transform="translate(790, 13)">
       <rect width="105" height="34" class="badge-bg" />
-      <text x="52.5" y="17" class="badge-text">TypeScript</text>
+      <text x="52.5" y="17" class="badge-text">MongoDB</text>
     </g>
-    <g transform="translate(360, 12)">
+    <!-- 9. Flyway -->
+    <g transform="translate(910, 13)">
       <rect width="90" height="34" class="badge-bg" />
-      <text x="45" y="17" class="badge-text">React</text>
+      <text x="45" y="17" class="badge-text">Flyway</text>
     </g>
-    <g transform="translate(465, 12)">
-      <rect width="110" height="34" class="badge-bg" />
-      <text x="55" y="17" class="badge-text">PostgreSQL</text>
+    <!-- 10. Mongock -->
+    <g transform="translate(1015, 13)">
+      <rect width="130" height="34" class="badge-bg" />
+      <text x="65" y="17" class="badge-text">Mongock</text>
+    </g>
+    <!-- 11. Redis -->
+    <g transform="translate(1160, 13)">
+      <rect width="80" height="34" class="badge-bg" />
+      <text x="40" y="17" class="badge-text">Redis</text>
     </g>
 
-    <!-- Group 2: Duplicate Set for Seamless Infinite Loop -->
-    <g transform="translate(585, 12)">
-      <rect width="90" height="34" class="badge-bg" />
-      <text x="45" y="17" class="badge-text">Java</text>
+    <!-- Group 2: Duplicate Set (Shifted by exactly +1240px) -->
+    <!-- 1. Java -->
+    <g transform="translate(1250, 13)">
+      <rect width="80" height="34" class="badge-bg" />
+      <text x="40" y="17" class="badge-text">Java</text>
     </g>
-    <g transform="translate(690, 12)">
+    <!-- 2. Spring Boot -->
+    <g transform="translate(1345, 13)">
+      <rect width="115" height="34" class="badge-bg" />
+      <text x="57.5" y="17" class="badge-text">Spring Boot</text>
+    </g>
+    <!-- 3. TypeScript -->
+    <g transform="translate(1475, 13)">
       <rect width="110" height="34" class="badge-bg" />
-      <text x="55" y="17" class="badge-text">Spring Boot</text>
+      <text x="55" y="17" class="badge-text">TypeScript</text>
     </g>
-    <g transform="translate(815, 12)">
+    <!-- 4. React -->
+    <g transform="translate(1600, 13)">
+      <rect width="85" height="34" class="badge-bg" />
+      <text x="42.5" y="17" class="badge-text">React</text>
+    </g>
+    <!-- 5. PostgreSQL -->
+    <g transform="translate(1700, 13)">
+      <rect width="115" height="34" class="badge-bg" />
+      <text x="57.5" y="17" class="badge-text">PostgreSQL</text>
+    </g>
+    <!-- 6. Dart -->
+    <g transform="translate(1830, 13)">
+      <rect width="80" height="34" class="badge-bg" />
+      <text x="40" y="17" class="badge-text">Dart</text>
+    </g>
+    <!-- 7. Flutter -->
+    <g transform="translate(1925, 13)">
+      <rect width="90" height="34" class="badge-bg" />
+      <text x="45" y="17" class="badge-text">Flutter</text>
+    </g>
+    <!-- 8. MongoDB -->
+    <g transform="translate(2030, 13)">
       <rect width="105" height="34" class="badge-bg" />
-      <text x="52.5" y="17" class="badge-text">TypeScript</text>
+      <text x="52.5" y="17" class="badge-text">MongoDB</text>
     </g>
-    <g transform="translate(935, 12)">
+    <!-- 9. Flyway -->
+    <g transform="translate(2150, 13)">
       <rect width="90" height="34" class="badge-bg" />
-      <text x="45" y="17" class="badge-text">React</text>
+      <text x="45" y="17" class="badge-text">Flyway</text>
     </g>
-    <g transform="translate(1040, 12)">
-      <rect width="110" height="34" class="badge-bg" />
-      <text x="55" y="17" class="badge-text">PostgreSQL</text>
+    <!-- 10. Mongock -->
+    <g transform="translate(2255, 13)">
+      <rect width="130" height="34" class="badge-bg" />
+      <text x="65" y="17" class="badge-text">Mongock</text>
+    </g>
+    <!-- 11. Redis -->
+    <g transform="translate(2400, 13)">
+      <rect width="80" height="34" class="badge-bg" />
+      <text x="40" y="17" class="badge-text">Redis</text>
     </g>
   </g>
 </svg>
